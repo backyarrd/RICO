@@ -1,10 +1,10 @@
 # Rico
-voice assistant using chatgpt + assemblyai speech recognition on raspberry pi 
+Voice Assistant using Chatgpt + AssemblyAI speech recognition on Raspberry Pi 
 
-the reason i chose not to work with google speech recognition, for some reason it was harder to implement on the pi 3 b. assemblyai proved to be way easier to use. granted both APIs (chagtgpt & assemblyai speech-to-text) are paid for but no crazy ammount, 10$ should be enough if you just wanna do your demo for a school project.
+The reason i chose not to work with google speech recognition, for some reason it was harder to implement on the pi 3 b. assemblyai proved to be way easier to use. granted both APIs (chagtgpt & assemblyai speech-to-text) are paid for but no crazy ammount, 10$ should be enough if you just wanna do your demo for a school project.
 
 
-what you first need is to configure your hardware, Raspbian sometimes doesn't detect the usb microphone so you need to manually add it to the .asoundrc file:
+What you first need is to configure your hardware, Raspbian sometimes doesn't detect the usb microphone so you need to manually add it to the .asoundrc file:
 first start with updating your OS
 
    sudo apt update
