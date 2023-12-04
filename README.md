@@ -1,4 +1,4 @@
-# gag
+# Rico
 voice assistant using chatgpt + assemblyai speech recognition on raspberry pi 
 
 the reason i chose not to work with google speech recognition, for some reason it was harder to implement on the pi 3 b. assemblyai proved to be way easier to use. granted both APIs (chagtgpt & assemblyai speech-to-text) are paid for but no crazy ammount, 10$ should be enough if you just wanna do your demo for a school project.
