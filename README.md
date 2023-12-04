@@ -39,3 +39,5 @@ same thing for chatgpt, get your token key for the api.
 
 to output the sound you can use whatever screen you have your pi plugged up into through hdmi display but for the purposes of my project (which was a four wheel mobile robot) i had to use a bluetooth module, i had a speaker laying around that i dismantled. but thats for later.
 
+the way that thw voice assistant functions is that it basically transcribes your speech while the script is running and saves the last sentence of speech, then the user uses the wake word to then prompts the VA to send a response.  
+
